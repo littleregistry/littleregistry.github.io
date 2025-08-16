@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
             <div className="inline-flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded-full border border-border/50">
-              <Sparkles className="w-4 h-4 text-warm-gold" />
+              <Sparkles className="w-4 h-4 text-neon-blue" />
               <span className="text-sm font-medium text-muted-foreground">
                 Transform Your Boutique Experience
               </span>
@@ -43,15 +43,15 @@ const Hero = () => {
             
             <div className="flex items-center gap-8 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-sage rounded-full"></div>
+                <div className="w-2 h-2 bg-electric-blue rounded-full"></div>
                 <span>5-minute setup</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-dusty-rose rounded-full"></div>
+                <div className="w-2 h-2 bg-royal-purple rounded-full"></div>
                 <span>No coding required</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-warm-gold rounded-full"></div>
+                <div className="w-2 h-2 bg-neon-blue rounded-full"></div>
                 <span>24/7 support</span>
               </div>
             </div>
@@ -69,8 +69,8 @@ const Hero = () => {
       </div>
       
       {/* Background decorations */}
-      <div className="absolute top-20 left-10 w-32 h-32 bg-sage/10 rounded-full blur-xl"></div>
-      <div className="absolute bottom-20 right-10 w-40 h-40 bg-dusty-rose/10 rounded-full blur-xl"></div>
+      <div className="absolute top-20 left-10 w-32 h-32 bg-electric-blue/10 rounded-full blur-xl"></div>
+      <div className="absolute bottom-20 right-10 w-40 h-40 bg-royal-purple/10 rounded-full blur-xl"></div>
     </section>
   );
 };

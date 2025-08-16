@@ -7,7 +7,7 @@ const CTA = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
           <div className="inline-flex items-center gap-2 bg-card/20 backdrop-blur-sm px-4 py-2 rounded-full border border-border/30 mb-8">
-            <Sparkles className="w-4 h-4 text-warm-gold" />
+            <Sparkles className="w-4 h-4 text-neon-blue" />
             <span className="text-sm font-medium">Ready to Transform Your Boutique?</span>
           </div>
           
@@ -35,15 +35,15 @@ const CTA = () => {
           
           <div className="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
             <div className="flex items-center gap-3 text-sm">
-              <Shield className="w-5 h-5 text-sage" />
+              <Shield className="w-5 h-5 text-electric-blue" />
               <span>30-day free trial</span>
             </div>
             <div className="flex items-center gap-3 text-sm">
-              <Zap className="w-5 h-5 text-dusty-rose" />
+              <Zap className="w-5 h-5 text-royal-purple" />
               <span>5-minute setup</span>
             </div>
             <div className="flex items-center gap-3 text-sm">
-              <Sparkles className="w-5 h-5 text-warm-gold" />
+              <Sparkles className="w-5 h-5 text-neon-blue" />
               <span>24/7 support included</span>
             </div>
           </div>
@@ -51,9 +51,9 @@ const CTA = () => {
       </div>
       
       {/* Background decorations */}
-      <div className="absolute top-10 left-10 w-32 h-32 bg-sage/10 rounded-full blur-2xl animate-float"></div>
-      <div className="absolute bottom-10 right-10 w-40 h-40 bg-dusty-rose/10 rounded-full blur-2xl animate-float" style={{ animationDelay: '1s' }}></div>
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-60 h-60 bg-warm-gold/5 rounded-full blur-3xl"></div>
+      <div className="absolute top-10 left-10 w-32 h-32 bg-electric-blue/10 rounded-full blur-2xl animate-float"></div>
+      <div className="absolute bottom-10 right-10 w-40 h-40 bg-royal-purple/10 rounded-full blur-2xl animate-float" style={{ animationDelay: '1s' }}></div>
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-60 h-60 bg-neon-blue/5 rounded-full blur-3xl"></div>
     </section>
   );
 };
