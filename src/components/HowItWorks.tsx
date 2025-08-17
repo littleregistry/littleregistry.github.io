@@ -19,7 +19,7 @@ const steps = [
     number: "03",
     icon: Heart,
     title: "Customers Create Registries",
-    description: "Your customers easily create beautiful registries for their special occasions."
+    description: "Your customers easily create and share beautiful registries for their special occasions."
   },
   {
     number: "04",

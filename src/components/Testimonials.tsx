@@ -9,13 +9,13 @@ const testimonials = [
     rating: 5,
     location: "San Francisco, CA"
   },
-  {
-    name: "Maria Rodriguez", 
-    role: "Manager, Nest Home Interiors",
-    content: "The customization options are amazing. The registries look like they were designed specifically for our brand.",
-    rating: 5,
-    location: "Austin, TX"
-  },
+  // {
+  //   name: "Maria Rodriguez", 
+  //   role: "Manager, Nest Home Interiors",
+  //   content: "The customization options are amazing. The registries look like they were designed specifically for our brand.",
+  //   rating: 5,
+  //   location: "Austin, TX"
+  // },
   {
     name: "Emma Thompson",
     role: "Owner, Baby Bliss Boutique", 
@@ -42,7 +42,7 @@ const Testimonials = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {testimonials.map((testimonial, index) => (
             <Card 
               key={index}
@@ -80,9 +80,9 @@ const Testimonials = () => {
         
         <div className="text-center mt-12">
           <div className="inline-flex items-center gap-2 bg-primary-soft px-6 py-3 rounded-full">
-            <Star className="w-5 h-5 fill-warm-gold text-warm-gold" />
-            <span className="font-semibold">4.9/5 rating</span>
-            <span className="text-muted-foreground">from 200+ boutique stores</span>
+            {/* <Star className="w-5 h-5 fill-warm-gold text-warm-gold" /> */}
+            {/* <span className="font-semibold">4.9/5 rating</span> */}
+            <span className="text-muted-foreground">Loved by 200+ boutique stores</span>
           </div>
         </div>
       </div>

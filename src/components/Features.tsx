@@ -1,43 +1,43 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { 
-  Heart, 
   ShoppingBag, 
   Users, 
-  Smartphone, 
+  Palette,
   BarChart3, 
-  Palette 
+  Lock,
+  Globe
 } from "lucide-react";
 
 const features = [
   {
-    icon: Heart,
-    title: "Beautiful Registries",
-    description: "Elegant, customizable gift registry pages that match your boutique's aesthetic and brand."
+    icon: Palette,
+    title: "Branded & Shareable Lists",
+    description: "Elegant gift lists customized to match your boutique’s style. Customize colors, fonts, layouts, and allow customers to create personalized registries."
   },
   {
     icon: ShoppingBag,
-    title: "Seamless Shopping",
-    description: "Customers can easily browse, add items, and purchase gifts directly from your store."
+    title: "Shopify POS Integration",
+    description: "Customers can easily add items from your Shopify store to their gift lists, while their friends can purchase from their lists. Real-time email notifications and order tracking."
   },
   {
     icon: Users,
-    title: "Customer Engagement",
-    description: "Build deeper relationships with customers through special occasions and life events."
+    title: "Registry Management Tools",
+    description: "Enable sales associates to easily manage customer registries and discounts from the admin panel. Build deeper relationships with customers through special occasions."
   },
   {
-    icon: Smartphone,
-    title: "Mobile Optimized",
-    description: "Perfect experience on all devices - desktop, tablet, and mobile phones."
+    icon: Lock,
+    title: "Privacy Settings",
+    description: "Give customers full control over their registries with options to hide addresses, create private and password-protected gift lists for added security."
   },
   {
     icon: BarChart3,
     title: "Sales Analytics",
-    description: "Track registry performance, popular items, and customer behavior with detailed insights."
+    description: "Track registry performance, popular items, and customer behavior with detailed insights to optimize inventory"
   },
   {
-    icon: Palette,
-    title: "Brand Customization",
-    description: "Customize colors, fonts, and layouts to perfectly match your boutique's unique style."
+    icon: Globe,
+    title: "Localization",
+    description: "Multiple currency options and 10+ languages support, including English, Spanish, Italian, Portuguese, Swedish, Estonian, Dutch, German, and French."
   }
 ];
 
@@ -49,7 +49,7 @@ const Features = () => {
           <h2 className="text-4xl font-bold mb-6">
             Everything You Need for 
             <span className="bg-gradient-accent bg-clip-text text-transparent ml-2">
-              Perfect Registries
+              Perfect Gift Lists
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
