@@ -67,8 +67,8 @@ const Footer = () => {
             © 2025 Little Registry. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-muted-foreground">
-            <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>
+            <a href="/terms" className="hover:text-primary transition-colors">Privacy Policy</a>
+            <a href="/terms" className="hover:text-primary transition-colors">Terms of Service</a>
             {/* <a href="#" className="hover:text-primary transition-colors">Cookies</a> */}
           </div>
         </div>

@@ -9,7 +9,9 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero">
       
       <div className="container mx-auto px-6 py-20 relative z-10">      
+      <a href="/">
       <img src={logo} alt="logo" width="200" height="100" />
+      </a>
       <br/>
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
@@ -36,10 +38,10 @@ const Hero = () => {
             
             <div className="flex flex-col sm:flex-row gap-4">
 
-              <img src={installButton} alt="install button" width="180" height="90" />
+            <a href="https://apps.shopify.com/little-registry"><img src={installButton} alt="install button" width="180" height="90" /></a>
 
               <Button variant="hero" size="lg" className="group">
-              View Demo
+              <a href="https://registry.coldcounter.com/watson">View Demo</a>
                 {/* Install Now - Free Trial
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" /> */}
               </Button>

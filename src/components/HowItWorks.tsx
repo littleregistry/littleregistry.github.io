@@ -83,10 +83,12 @@ const HowItWorks = () => {
         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', colorScheme: 'light' }}
       />
     </div>
+        <a href="https://apps.shopify.com/little-registry">
           <Button variant="hero" size="lg" className="group mt-10">
             Start Your Free Trial
             <Download className="w-4 h-4 group-hover:scale-110 transition-transform" />
           </Button>
+          </a>
         </div>
       </div>
     </section>
