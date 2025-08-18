@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
-import heroImage from "@/assets/littleregistry-hero.png";
+import heroImage from "@/assets/hero-image-9.svg";
 import logo from "@/assets/logo-lr.svg"
 import installButton from  "@/assets/find-shopify.jpeg"
 

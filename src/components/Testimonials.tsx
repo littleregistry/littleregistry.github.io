@@ -3,11 +3,11 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Chen",
-    role: "Owner, Little Sprouts Baby Boutique",
-    content: "Our gift registry sales increased by 40% in the first month! Customers love how easy it is to create and share their registries.",
+    name: "Penelope Stipanovich",
+    role: "Owner, Smoochie Baby",
+    content: "Thanks to Little Registry, we’ve been able to offer an elevated, boutique-style registry experience that aligns perfectly with our brand. It’s been a game changer for Smoochie Baby, and I recommend it wholeheartedly to any retailer looking to add a high-touch, thoughtfully built registry system to their Shopify store.",
     rating: 5,
-    location: "San Francisco, CA"
+    // location: "San Francisco, CA"
   },
   // {
   //   name: "Maria Rodriguez", 
@@ -18,10 +18,10 @@ const testimonials = [
   // },
   {
     name: "Emma Thompson",
-    role: "Owner, Baby Bliss Boutique", 
+    role: "IT Director, Blissful Baby Boutique", 
     content: "Setup was incredibly easy and our customers immediately started using it. The support team is fantastic too!",
     rating: 5,
-    location: "Portland, OR"
+    // location: "Portland, OR"
   }
 ];
 

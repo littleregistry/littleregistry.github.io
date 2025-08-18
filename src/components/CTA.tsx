@@ -25,18 +25,18 @@ const CTA = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button variant="hero" size="lg" className="group">
-              Install Free App
+              <a href="https://apps.shopify.com/little-registry?show_store_picker=1">Install App</a>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button variant="soft" size="lg">
-              Schedule Demo
+              <a href="https://cal.com/littleregistry">Schedule Demo</a>
             </Button>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
             <div className="flex items-center gap-3 text-sm">
               <Shield className="w-5 h-5 text-electric-blue" />
-              <span>30-day free trial</span>
+              <span>14-day free trial</span>
             </div>
             <div className="flex items-center gap-3 text-sm">
               <Zap className="w-5 h-5 text-royal-purple" />
@@ -44,7 +44,7 @@ const CTA = () => {
             </div>
             <div className="flex items-center gap-3 text-sm">
               <Sparkles className="w-5 h-5 text-neon-blue" />
-              <span>24/7 support included</span>
+              <span>Live support available</span>
             </div>
           </div>
         </div>
