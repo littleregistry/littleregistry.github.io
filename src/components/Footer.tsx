@@ -33,6 +33,7 @@ const Footer = () => {
             <h4 className="font-semibold text-foreground">Support</h4>
             <ul className="space-y-2 text-muted-foreground">
               {/* <li><a href="#" className="hover:text-primary transition-colors">Help Center</a></li> */}
+              <li><a href="https://littleregistry.com/#/terms" className="hover:text-primary transition-colors">Terms</a></li>
               <li><a href="https://docs.littleregistry.com/introduction" className="hover:text-primary transition-colors">Documentation</a></li>
               <li><a href="https://blog.littleregistry.com/" className="hover:text-primary transition-colors">Blog</a></li>
               <li><a href="https://go.crisp.chat/chat/embed/?website_id=89c96ef7-cccf-4f92-8cc1-894a926bef19" className="hover:text-primary transition-colors" className="hover:text-primary transition-colors">Contact Us</a></li>
